@@ -1,0 +1,93 @@
+.Pcourses{
+    height: 530px;
+    width: 100vw;
+    background-color:#D8FDD2;
+    margin: 160px 0;
+    /* position: absolute; */
+    /* left: 0; */
+    padding: 90px 0px ;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+.Pcourses h2{
+    font-size: 36px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+.Pcourses-boxes{
+    display: flex;
+    /* justify-content: space-evenly; */
+    overflow-x: scroll;
+    width: 100%;
+}
+.Pcourses-boxes::-webkit-scrollbar {
+    display: none;
+  }
+.Pcourses-box{
+    border-radius: 10px;
+background: #F8FFF8;
+width: 353px;
+height: 330px;
+padding: 30px 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 100px 50px;
+/* text-align: center; */
+}
+.Pcourses-box h3{
+    font-size: 26px;
+font-style: normal;
+font-weight: 500;
+}
+.Pcourses-box p{
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.Pcourses-box h6{
+    font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.ratings img{
+    margin: 0 5px 0 40px;
+}
+
+
+@media screen and (max-width: 800px){
+    .Pcourses h2{
+        font-size: 34px;
+    }
+    .Pcourses-box h3{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 550px){
+    .Pcourses h2{
+        font-size: 32px;
+    }
+    .Pcourses-box h3{
+        font-size: 22px;
+    }
+    .Pcourses-box p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 482px){
+.Pcourses-box{
+    margin: 80px 20px;
+    width: 80%;
+}
+}

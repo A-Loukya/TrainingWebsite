@@ -1,0 +1,126 @@
+.courses-bg{
+    position: absolute;
+    left: 0px;
+}
+.freecourses{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.fc-left h6{
+    color: #34A026;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 1.68px;
+}
+.fc-left h3{
+    font-size: 40px;
+font-weight: 600;
+line-height: 134.9%;
+width: 357px;
+margin-bottom: 14px;
+}
+.fc-left p{
+    width: 465px;
+font-size: 24px;
+font-weight: 400;
+}
+.fc-right::-webkit-scrollbar {
+    display: none;
+  }
+.fc-right{
+overflow-y: scroll;
+max-height: 90vh;
+width: auto;
+}
+.fc-box{
+    position: relative;
+    width: 430px;
+height: 150px;
+border-radius: 19px;
+border: 1px solid #FAFAFA;
+background: #FFF;
+padding: 25px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+.box-text p{
+    font-size: 22px;
+font-style: normal;
+font-weight: 400;
+width: 280px;
+}
+.box-text h2{
+    font-size: 26px;
+font-style: normal;
+font-weight: 600;
+width: 296px;
+margin-bottom:15px;
+}
+.FCimg{
+    width: 100px;
+    height: 100px;
+}
+.box-text p{
+    width: 280px;
+    font-size: 22px;
+font-style: normal;
+font-weight: 400;
+}
+
+@media screen and (max-width: 1020px){
+    .freecourses{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fc-left p{
+        width: 465px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 650px){
+.courses-bg{
+    width: 80%;
+}
+}
+@media screen and (max-width: 550px){
+    .fc-left h3{
+        font-size: 38px;
+    width: 100%;
+    }
+    .fc-left p{
+        width: 100%;
+    }
+    .freecourses{
+        padding: 7%;
+    }
+    .fc-box{
+        width: 100%;
+        padding: 3%;
+    }
+    .box-text p{
+        font-size: 20px;
+    width: 90%;
+    }
+    .box-text h2{
+        font-size: 24px;
+    width: 90%;
+    margin-bottom:15px;
+    }
+    .FCimg{
+        margin-right: 4%;
+    }
+    .fc-left{
+       margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .freecourses{
+        justify-content: space-evenly;
+    }
+}
