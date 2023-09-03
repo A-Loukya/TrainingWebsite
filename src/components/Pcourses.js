@@ -59,6 +59,7 @@ const Pcourses = () => {
   return (
     <div>
       <div className="Pcourses">
+      <div className="gradient">
         <h2>Select courses based on your specific requirements</h2>
 
         <div className="Pcourses-boxes">
@@ -77,6 +78,7 @@ const Pcourses = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

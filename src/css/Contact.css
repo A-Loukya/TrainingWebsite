@@ -16,7 +16,7 @@ justify-content: space-evenly;
 margin: auto;
 }
 .contact h2{
-font-size: 32px;
+font-size: 30px;
 font-weight: 600;
 line-height: 134.9%;
 }
@@ -27,11 +27,11 @@ background: #F8FFF8;
 width: 30vw;
 height: 40px;
 padding: 10px 20px;
-font-size: 24px;
+font-size: 22px;
 margin-right: -50px;
 }
 .input::placeholder{
-    font-size: 24px;
+    font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: 134.9%; 
@@ -59,11 +59,11 @@ button:hover{
 }
 @media screen and (max-width: 950px){
     .input::placeholder{
-        font-size: 22px;
+        font-size: 20px;
     
 }
 .contact h2{
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 30px;
 }
 .contact{
@@ -97,7 +97,7 @@ button:hover{
 }
 @media screen and (max-width: 500px){
 .input{
-    font-size: 20px;
+    font-size: 18px;
 }
 .input::placeholder{
     font-size: 14px;

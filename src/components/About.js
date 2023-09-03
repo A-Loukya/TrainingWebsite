@@ -6,7 +6,7 @@ const About = () => {
         <div className="main" id="about">
         <div className="ourProgram">
             <div className="op-main">
-            <h1>Our Program</h1>
+            <h1>Our<br></br> Program</h1>
             <p>We offer a variety program of courses over various creative topics</p>
             </div>
             <div className="op op1">

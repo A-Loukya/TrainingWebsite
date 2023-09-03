@@ -16,10 +16,10 @@ const Footer = () => {
                 </div>
                 <div className="footer-right">
                     <div className="navlinks">
-                    <h3>Home</h3>
-          <h3>About</h3>
-          <h3>Courses</h3>
-          <h3>Contact</h3>
+                    <h3><a href="#home">Home</a></h3>
+                    <h3><a href="#about">About</a></h3>
+                    <h3><a href="#courses">Courses</a></h3>
+                    <h3><a href="#contact">Contact</a></h3>
                     </div>
                     <div className="socialmedia">
 

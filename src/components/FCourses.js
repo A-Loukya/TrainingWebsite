@@ -5,6 +5,7 @@ import FCimg1 from "../Images/FCimg1.svg";
 import FCimg2 from "../Images/FCimg2.svg";
 import FCimg3 from "../Images/FCimg3.svg";
 import FCimg4 from "../Images/FCimg4.svg";
+import FC_image from "../Images/FC-image.svg"; 
 
 const FCourses = () => {
 
@@ -66,11 +67,14 @@ const [courses,setCourses]=useState([
                     <h6>100% FREE</h6>
                     <h3>Start learning with free courses</h3>
                     <p>Even if you are not ready with paid courses, there are a variety of free courses available for you.</p>
+                    <img src={FC_image}/>
                 </div>
                 <div className="fc-right">
-                    <div className="fc-boxes">
                         
-                        <div >
+                        <div className="shadow shadow--top"></div>
+                        <div className="shadow shadow--bottom"></div>
+                    <div className="fc-boxes">
+                        <div>
                             {courses.map((details)=>(
                                 <div className="fc-box " key={details.id}>
                                 <img src={details.image} className="FCimg"/>
@@ -82,6 +86,7 @@ const [courses,setCourses]=useState([
                             ))}
                             
                         </div>
+                        
                         
                     </div>
                 </div>
