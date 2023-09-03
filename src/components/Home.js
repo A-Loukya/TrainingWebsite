@@ -18,7 +18,7 @@ const Home = () => {
       <nav>
         <div className={`navbar ${menuOpen ? "active" : ""}`}>
           <img src={logo} className='logo' alt="Logo" />
-          <h3><a href="#home">Home</a></h3>
+          <h3><a href="#home" >Home</a></h3>
           <h3><a href="#about">About</a></h3>
           <h3><a href="#courses">Courses</a></h3>
           <h3><a href="#contact">Contact</a></h3>
