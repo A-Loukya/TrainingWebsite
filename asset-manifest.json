@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.724b91a1.css",
-    "main.js": "/TrainingWebsite/static/js/main.e7774bb6.js",
+    "main.css": "/TrainingWebsite/static/css/main.11183f77.css",
+    "main.js": "/TrainingWebsite/static/js/main.eb767df4.js",
     "static/media/PCimg3.svg": "/TrainingWebsite/static/media/PCimg3.d313111019a7771c9a5d75ca6432e5db.svg",
     "static/media/PCimg1.svg": "/TrainingWebsite/static/media/PCimg1.659125c9c78335522c99747484253d6b.svg",
     "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.d4bd096a71abfc32a042cfe8c175c633.svg",
     "static/media/PCimg2.svg": "/TrainingWebsite/static/media/PCimg2.b25f0fb2030f7debb37d3ca3155c6076.svg",
     "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.debdf262c75b7e4ad52097297fa491a2.svg",
+    "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.5fb18977850a3fea881986db0f2120ae.svg",
     "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.b01884b24dff80c20003a51c2b02b13b.svg",
     "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.014215cf42a7f579b7661182c8f6854f.svg",
     "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.4475a20da7e2b2018d48af49bf912d27.svg",
@@ -16,17 +17,17 @@
     "static/media/FCimg4.svg": "/TrainingWebsite/static/media/FCimg4.9aa0cedcd447b4cb387e282899edb6d3.svg",
     "static/media/FCimg3.svg": "/TrainingWebsite/static/media/FCimg3.14b4f76276425682a62f29e2404bd951.svg",
     "static/media/LOGO.svg": "/TrainingWebsite/static/media/LOGO.3656e47f9bc3fc1f5c104cfd0c1f47d5.svg",
-    "static/media/linkedin.svg": "/TrainingWebsite/static/media/linkedin.b9c381c044207c2d1a06e737861170b4.svg",
-    "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.a369ca27344b825506879ccf15bb891c.svg",
     "static/media/star.svg": "/TrainingWebsite/static/media/star.ca85adcba169f01d596b55d1edb597f8.svg",
-    "static/media/twitter.svg": "/TrainingWebsite/static/media/twitter.8083d287ad0cfbaec60fb2379ab61d8c.svg",
+    "static/media/linkedin.svg": "/TrainingWebsite/static/media/linkedin.483d3912bd10b48fe31bd134096dd4ec.svg",
+    "static/media/twitter.svg": "/TrainingWebsite/static/media/twitter.9d78307cc54892fa67b3e637a5ca4401.svg",
     "index.html": "/TrainingWebsite/index.html",
     "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.8c9f44da7c8d8c794a62227840dad0fe.svg",
-    "main.724b91a1.css.map": "/TrainingWebsite/static/css/main.724b91a1.css.map",
-    "main.e7774bb6.js.map": "/TrainingWebsite/static/js/main.e7774bb6.js.map"
+    "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
+    "main.11183f77.css.map": "/TrainingWebsite/static/css/main.11183f77.css.map",
+    "main.eb767df4.js.map": "/TrainingWebsite/static/js/main.eb767df4.js.map"
   },
   "entrypoints": [
-    "static/css/main.724b91a1.css",
-    "static/js/main.e7774bb6.js"
+    "static/css/main.11183f77.css",
+    "static/js/main.eb767df4.js"
   ]
 }
