@@ -8,18 +8,17 @@ const Footer = () => {
         <div>
             <div className="footer">
                 <div className="footer-flex">
-
-                
                 <div className="footer-left">
                     <img src={logo}/>
-                    <h6>name is a treat for all who are willing to learn both educationally & professionally with over 4000+ courses & a diverse community of learners!</h6>
+                    <h6>Unlock your potential with our comprehensive training, placement, internship, and education services. Empowering students, corporations, and government agencies for a brighter future.</h6>
                 </div>
                 <div className="footer-right">
                     <div className="navlinks">
-                    <h3><a href="#home">Home</a></h3>
-                    <h3><a href="#about">About</a></h3>
-                    <h3><a href="#courses">Courses</a></h3>
-                    <h3><a href="#contact">Contact</a></h3>
+                    <h3><a href="#home" >Home</a></h3>
+          <h3><a href="#about">About</a></h3>
+          <h3><a href="#services">Services</a></h3>
+          <h3><a href="#internships">Internships</a></h3>
+          <h3><a href="#contact">Contact</a></h3>
                     </div>
                     <div className="socialmedia">
 

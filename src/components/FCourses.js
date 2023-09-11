@@ -1,72 +1,74 @@
 import "../css/FCourses.css"
 import { useState } from "react";
 import courses_bg from "../Images/courses-bg.svg";
-import FCimg1 from "../Images/FCimg1.svg";
-import FCimg2 from "../Images/FCimg2.svg";
-import FCimg3 from "../Images/FCimg3.svg";
-import FCimg4 from "../Images/FCimg4.svg";
+// import FCimg1 from "../Images/FCimg1.svg";
+// import FCimg2 from "../Images/FCimg2.svg";
+// import FCimg3 from "../Images/FCimg3.svg";
+// import FCimg4 from "../Images/FCimg4.svg";
 import FC_image from "../Images/FC-image.svg"; 
 
 const FCourses = () => {
 
 const [courses,setCourses]=useState([
     {
-        image:FCimg1,
-        title:"UI UX design course",
-        description:"Brush up your fundamentals of designing.",
+        title:"UI UX development",
+        description:"Work from home",
+        duration:3,
+        stipend:"3000-5000",
         id:1,
     },
     {
-        image:FCimg2,
-        title:"Finance management",
-        description:"Elevate Your Expertise with Finance Management Learning.",
+        title:"Full stack and cloud",
+        description:"Gurugaon",
+        duration:6,
+        stipend:4000,
         id:2,
     },
     {
-        image:FCimg3,
-        title:"Self Development",
-        description:"Unleash your potential through self-development journey.",
+        title:"Business development",
+        description:"Mumbai",
+        duration:4,
+        stipend:5000,
         id:3,
     },
     {
-        image:FCimg4,
-        title:"Business Fundamentals for Beginners",
-        description:"Learn the core principles of business.",
+        title:"Social Media Marketing",
+        description:"Work from home",
+        duration:3,
+        stipend:"3000-5000",
         id:4,
     },
     {
-        image:FCimg1,
-        title:"UI UX design course",
-        description:"Brush up your fundamentals of designing.",
+        title:"React portal development",
+        description:"Ahmedabad",
+        duration:6,
+        stipend:8000,
         id:5,
     },
     {
-        image:FCimg2,
-        title:"Finance management",
-        description:"Elevate Your Expertise with Finance Management Learning.",
+        title:".NET development",
+        description:"work from home",
+        duration:8,
+        stipend:9000,
         id:6,
     },
     {
-        image:FCimg3,
-        title:"Self Development",
-        description:"Unleash your potential through self-development journey.",
+        title:"Software testing",
+        description:"Hyderabad",
+        duration:4,
+        stipend:4000,
         id:7,
     },
-    {
-        image:FCimg4,
-        title:"Business Fundamentals for Beginners",
-        description:"Learn the core principles of business.",
-        id:8,
-    },
+    
 ])
     return ( 
-        <div className="main" id="courses">
+        <div className="main" id="internships">
             <img src={courses_bg} className="courses-bg"/>
             <div className="freecourses">
                 <div className="fc-left">
-                    <h6>100% FREE</h6>
-                    <h3>Start learning with free courses</h3>
-                    <p>Even if you are not ready with paid courses, there are a variety of free courses available for you.</p>
+                    <h6>GRAB EXCITING</h6>
+                    <h3>Internship Opportunities</h3>
+                    <p>Explore hands-on learning experiences and gain practical skills through our diverse internship programs, tailored to your career goals.</p>
                     <img src={FC_image}/>
                 </div>
                 <div className="fc-right">
@@ -77,10 +79,18 @@ const [courses,setCourses]=useState([
                         <div>
                             {courses.map((details)=>(
                                 <div className="fc-box " key={details.id}>
-                                <img src={details.image} className="FCimg"/>
                                 <div className="box-text">
                                 <h2>{details.title}</h2>
                                 <p>{details.description}</p>
+                                <div className="details">
+                                    <h5>duration:</h5>
+                                    <span>{details.duration} months</span>
+                                </div>
+                                <div className="details">
+                                    <h5>stipend:</h5>
+                                    <span>{details.stipend}/month</span>
+                                </div>
+                                <button>VIEW DETAILS</button>
                             </div>
                             </div>
                             ))}

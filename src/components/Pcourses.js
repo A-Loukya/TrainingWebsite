@@ -1,66 +1,53 @@
 import "../css/Pcourses.css";
-import PCImg1 from "../Images/PCimg1.svg";
-import PCImg2 from "../Images/PCimg2.svg";
-import PCImg3 from "../Images/PCimg3.svg";
+// import PCImg1 from "../Images/PCimg1.svg";
+// import PCImg2 from "../Images/PCimg2.svg";
+// import PCImg3 from "../Images/PCimg3.svg";
+import PCImg1 from "../Images/resumeBuilding.svg";
+import PCImg2 from "../Images/test.svg";
+import PCImg3 from "../Images/MockInterview.svg";
+import PCImg4 from "../Images/counselling.svg";
+import PCImg5 from "../Images/certification.svg";
 import star from "../Images/star.svg";
 import { useState } from "react";
 const Pcourses = () => {
   const [courses, setCourses] = useState([
     {
       image: PCImg1,
-      title: "Front-End development",
-      students: "200+",
-      rating: "4.0",
-      price: "120",
+      title: "Resume Building",
+      description:"Crafting impactful resumes for career advancement.",
       id: 1,
     },
     {
       image: PCImg2,
-      title: "Graphic designing",
-      students: "180+",
-      rating: "4.5",
-      price: "140",
+      title: "Psychometric Test",
+      description:"Assessing skills and personality traits effectively.",
       id: 2,
     },
     {
       image: PCImg3,
-      title: "Digital Marketing",
-      students: "300+",
-      rating: "5.0",
-      price: "160",
+      title: "Mock Interview",
+      description:"Simulated practice for interview success and confidence.",
       id: 3,
     },
     {
-      image: PCImg1,
-      title: "Front-End development",
-      students: "200+",
-      rating: "4.0",
-      price: "120",
+      image: PCImg4,
+      title: "Career Counseling",
+      description:"Expert guidance for strategic career development decisions.",
       id: 4,
     },
     {
-      image: PCImg2,
-      title: "Graphic designing",
-      students: "180+",
-      rating: "4.5",
-      price: "140",
+      image: PCImg5,
+      title: "Certifications",
+      description:"Attaining professional recognition and enhancing skill sets.",
       id: 5,
-    },
-    {
-      image: PCImg3,
-      title: "Digital Marketing",
-      students: "300+",
-      rating: "5.0",
-      price: "160",
-      id: 6,
-    },
+    }
   ]);
 
   return (
-    <div>
+    <div id="services">
       <div className="Pcourses">
       <div className="gradient">
-        <h2>Select courses based on your specific requirements</h2>
+        <h2>Placement preparation and services</h2>
 
         <div className="Pcourses-boxes">
           {courses.map((details) => (
@@ -68,12 +55,7 @@ const Pcourses = () => {
               <img src={details.image} />
               <h3>{details.title}</h3>
               <div className="course-details">
-                <p>{details.students} students</p>
-                <div className="ratings">
-                  <img src={star} />
-                  <p>{details.rating}</p>
-                </div>
-                <h6>${details.price}</h6>
+                <p>{details.description}</p>
               </div>
             </div>
           ))}

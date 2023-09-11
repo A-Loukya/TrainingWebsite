@@ -20,7 +20,8 @@ const Home = () => {
           <img src={logo} className='logo' alt="Logo" />
           <h3><a href="#home" >Home</a></h3>
           <h3><a href="#about">About</a></h3>
-          <h3><a href="#courses">Courses</a></h3>
+          <h3><a href="#services">Services</a></h3>
+          <h3><a href="#internships">Internships</a></h3>
           <h3><a href="#contact">Contact</a></h3>
           <button className='signIn-btn'>Sign up</button>
         </div>
@@ -33,9 +34,9 @@ const Home = () => {
 
       <div className='home'>
         <div className='home-left'>
-          <p className='typing-ani'>INTRODUCING INTERACTIVE</p>
-          <h2>Learning courses by top teachers</h2>
-          <p className='home-text'>Choose from over 4,000 courses on topics like Graphic design, ReactJS, Cartoon design.</p>
+          <p className='typing-ani'>INTRODUCING INTEGRATED</p>
+          <h2> Learning and Career Development Hub</h2>
+          <p className='home-text'>We provide diverse training, placement, internships, and education services, fostering holistic growth for students, corporates, and government entities.</p>
           <div className='home-bnts'>
             <button className='homeBtn1'>Get started</button>
             <button className='homeBtn2'><img src={video} alt="Video" />Watch video</button>

@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Home/>
       <About/>
-      <FCourses/>
       <Pcourses/>
+      <FCourses/>
       <Contact/>
       <Footer/>
     </div>

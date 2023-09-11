@@ -10,8 +10,6 @@
     width: 100vw;
     background-color:#D8FDD2;
     margin: 160px 0;
-    /* position: absolute; */
-    /* left: 0; */
     padding: 90px 0px ;
 }
 body::-webkit-scrollbar {
@@ -35,15 +33,16 @@ text-align: center;
 .Pcourses-box{
     border-radius: 10px;
 background: #F8FFF8;
-width: 353px;
-height: 330px;
+width: 370px;
+height: 400px;
 padding: 30px 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-margin: 100px 50px;
+margin: 70px 50px;
 /* text-align: center; */
 }
+
 .Pcourses-box h3{
     font-size: 24px;
 font-style: normal;
@@ -54,23 +53,13 @@ font-weight: 500;
 font-style: normal;
 font-weight: 400;
 }
-.Pcourses-box h6{
-    font-size: 18px;
-font-style: normal;
-font-weight: 600;
-}
+
 .course-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.ratings{
-    display: flex;
-    align-items: center;
-}
-.ratings img{
-    margin: 0 5px 0 40px;
-}
+
 
 
 @media screen and (max-width: 800px){

@@ -1,8 +1,4 @@
-/* .contact-bg{
-    position: absolute;
-    right: 0;
-    top: -220px;
-} */
+
 .contact{
     position: relative;
     width: 90%;
@@ -14,6 +10,7 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 margin: auto;
+margin-top: 200px;
 }
 .contact h2{
 font-size: 30px;
@@ -104,5 +101,6 @@ button:hover{
 }
 .contact{
     border-radius: 20px;
+    margin-left: 0;
 }
 }

@@ -12,7 +12,8 @@ body{
     background-color: #F8FFF8;
 }
 .main{
-    max-width: 1400px;
+    max-width: 80%;
+    /* max-width: 1400px; */
     margin: auto;
 }
 a{
@@ -86,7 +87,7 @@ font-style: normal;
 font-weight: 600;
 color: #000;
 position: relative;
-width: 550px;
+width: 650px;
 margin-bottom: 15px;
 }
 .home-text{
@@ -95,7 +96,7 @@ margin-bottom: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 134.9%;
-width: 470px;
+width: 550px;
 }
 .home-bnts{
     margin-top: 85px;
@@ -157,14 +158,18 @@ justify-content: space-evenly;
     margin: 3px 0;
     transition: 0.4s;
 }
+
+
 @media screen and (max-width: 1440px){
-    main{
+    .main{
         max-width: 1200px;
     }
 }
 @media screen and (max-width: 1240px){
-    main{
+    .main{
         max-width: 1000px;
+        /* background-color: #142712; */
+        /* max-width: auto; */
     }
     .home{
         justify-content: space-evenly;
@@ -260,7 +265,7 @@ justify-content: space-evenly;
     width: 80%;
 }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 890px) {
 
     .navbar {
         display: flex;
