@@ -13,7 +13,7 @@ const Footer = () => {
                     <h6>Unlock your potential with our comprehensive training, placement, internship, and education services. Empowering students, corporations, and government agencies for a brighter future.</h6>
                 </div>
                 <div className="footer-right">
-                    <div className="navlinks">
+                    <div className="Footerlinks">
                     <h3><a href="#home" >Home</a></h3>
           <h3><a href="#about">About</a></h3>
           <h3><a href="#services">Services</a></h3>

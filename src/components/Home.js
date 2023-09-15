@@ -13,18 +13,22 @@ const Home = () => {
   };
 
   return (
+    // home page
     <div className='main' id='home'>
       <img src={home_bg} className='home-bg' alt="Home Background" />
       <nav>
-        <div className={`navbar ${menuOpen ? "active" : ""}`}>
           <img src={logo} className='logo' alt="Logo" />
+        <div className={`navbar ${menuOpen ? "active" : ""}`}>
+          <div className={`navlinks ${menuOpen ? "active" : ""}`}>
           <h3><a href="#home" >Home</a></h3>
           <h3><a href="#about">About</a></h3>
           <h3><a href="#services">Services</a></h3>
           <h3><a href="#internships">Internships</a></h3>
           <h3><a href="#contact">Contact</a></h3>
           <button className='signIn-btn'>Sign up</button>
+          </div>
         </div>
+        {/* hamburger */}
         <div className={`hamburger-menu ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
           <div className={`bar ${menuOpen ? "bar2" : ""}`}></div>
           <div className={`bar ${menuOpen ? "bar2" : ""}`}></div>

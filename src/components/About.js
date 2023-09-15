@@ -5,6 +5,7 @@ import { useState } from "react";
 const About = () => {
 
 const [training,setTraining]=useState([
+    // training services array
     {
         title:"Upskilling Solutions",
         description:"Explore our comprehensive upskilling programs designed to empower students, professionals, and government employees with the knowledge and skills needed to thrive in today's dynamic world.",
@@ -28,6 +29,7 @@ const [training,setTraining]=useState([
 ])
     return ( 
         <div className="main" id="about">
+            {/* ourprogram */}
         <div className="ourProgram">
             <div className="op-main">
             <h1>Our<br></br> Program</h1>
@@ -44,6 +46,7 @@ const [training,setTraining]=useState([
                 <p>Learn how to shape your career with sessions!</p>
             </div>
         </div>
+        {/* training services */}
         <div className="traningServices">
                 <h2>Our Training Approaches</h2>
                 <div className="ts-details">

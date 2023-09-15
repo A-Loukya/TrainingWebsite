@@ -31,12 +31,28 @@ position: relative;
 display: flex;
 align-items: center;
 margin-top: 20px;
-justify-content: space-evenly;
+justify-content: flex-end;
+/* justify-content: space-evenly; */
+
+}
+.navlinks{
+    margin-right: 20px;
+    display: flex;
+align-items: center;
+display: flex;
+justify-content: space-between;
+/* margin-top: 20px; */
+width: 70%;
 }
 .logo{
     width: 120px;
     height: 50px;
     margin-right:  100px;
+    position: absolute;
+    top: 40px;
+    left: 13%; 
+    z-index: 20; 
+   
 }
 nav h3{
 font-family: Inter;
@@ -174,6 +190,9 @@ justify-content: space-evenly;
     .home{
         justify-content: space-evenly;
     }
+    .logo{
+        left: 8%;
+    }
 }
 @media screen and (max-width: 1140px){
     .home-left h2{
@@ -288,11 +307,30 @@ justify-content: space-evenly;
         /* padding-left: 40px; */
         
     }
-    .logo{
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 50%;
+        align-items: normal;
+        justify-content: normal;
+        margin-left: 3%;
+    }
+    /* .logo{
         margin-right: 0px;
         align-self: flex-start;
         margin-left: 40px;
+    } */
+    .home-bg{
+        display: none;
     }
+    .logo {
+        position: fixed;
+        top: 30px;
+        left: 60px; 
+        z-index: 20; 
+      }
+    
 
     .navbar.active {
         right: 0;
@@ -348,6 +386,7 @@ justify-content: space-evenly;
     .signIn-btn{
         margin-top: 30px;
     }
+    
 
 }
 
@@ -379,6 +418,12 @@ justify-content: space-evenly;
     .home{
         padding: 20px;
     }
+    .logo {
+        position: fixed;
+        top: 2%;
+        left: 5%; 
+        z-index: 20; 
+      }
 }
 @media screen and (max-width: 420px){
     /* .homeBtn1{

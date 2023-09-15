@@ -1,10 +1,9 @@
 import "../css/Contact.css";
 import arrow from "../Images/arrow.svg";
-// import contact_bg from "../Images/Contact-bg.svg"
 const Contact = () => {
     return ( 
+        // contact page
         <div className="main main_contact" id="contact">
-            {/* <img src={contact_bg} className="contact-bg"/> */}
             <div className="contact">
             <h2>JOIN US NOW!</h2>
             <form>

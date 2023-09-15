@@ -1,10 +1,6 @@
 import "../css/FCourses.css"
 import { useState } from "react";
 import courses_bg from "../Images/courses-bg.svg";
-// import FCimg1 from "../Images/FCimg1.svg";
-// import FCimg2 from "../Images/FCimg2.svg";
-// import FCimg3 from "../Images/FCimg3.svg";
-// import FCimg4 from "../Images/FCimg4.svg";
 import FC_image from "../Images/FC-image.svg"; 
 
 const FCourses = () => {
