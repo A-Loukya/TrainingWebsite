@@ -325,7 +325,7 @@ justify-content: space-evenly;
         display: none;
     }
     .logo {
-        position: fixed;
+        /* position: fixed; */
         top: 30px;
         left: 60px; 
         z-index: 20; 
