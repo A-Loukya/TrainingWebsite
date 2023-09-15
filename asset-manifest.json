@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.35ca25e2.css",
+    "main.css": "/TrainingWebsite/static/css/main.c0b5bfbf.css",
     "main.js": "/TrainingWebsite/static/js/main.140b31a3.js",
     "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.5958d45b0e4ef0ddb87ef25f13d078f6.svg",
     "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.d4bd096a71abfc32a042cfe8c175c633.svg",
@@ -21,11 +21,11 @@
     "index.html": "/TrainingWebsite/index.html",
     "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.8c9f44da7c8d8c794a62227840dad0fe.svg",
     "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
-    "main.35ca25e2.css.map": "/TrainingWebsite/static/css/main.35ca25e2.css.map",
+    "main.c0b5bfbf.css.map": "/TrainingWebsite/static/css/main.c0b5bfbf.css.map",
     "main.140b31a3.js.map": "/TrainingWebsite/static/js/main.140b31a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ca25e2.css",
+    "static/css/main.c0b5bfbf.css",
     "static/js/main.140b31a3.js"
   ]
 }
