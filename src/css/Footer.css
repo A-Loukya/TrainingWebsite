@@ -25,7 +25,12 @@ width: 30%;
 .Footerlinks{
     display: flex;
     justify-content: space-between;
-    
+    color: white;
+}
+
+.Footerlinks a {
+  text-decoration: none;
+  color: white;
 }
 .footer-right h3{
     font-size: 22px;
@@ -53,6 +58,7 @@ margin-right: 10px;
 
 }
 .Footerlinks{
+    width: 100%;
     flex-wrap: wrap;
 }
 .icons img{

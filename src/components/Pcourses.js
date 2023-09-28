@@ -14,53 +14,55 @@ const Pcourses = () => {
     {
       image: PCImg1,
       title: "Resume Building",
-      description:"Crafting impactful resumes for career advancement.",
+      description: "Crafting impactful resumes for career advancement.",
       id: 1,
     },
     {
       image: PCImg2,
       title: "Psychometric Test",
-      description:"Assessing skills and personality traits effectively.",
+      description: "Assessing skills and personality traits effectively.",
       id: 2,
     },
     {
       image: PCImg3,
       title: "Mock Interview",
-      description:"Simulated practice for interview success and confidence.",
+      description: "Simulated practice for interview success and confidence.",
       id: 3,
     },
     {
       image: PCImg4,
       title: "Career Counseling",
-      description:"Expert guidance for strategic career development decisions.",
+      description:
+        "Expert guidance for strategic career development decisions.",
       id: 4,
     },
     {
       image: PCImg5,
       title: "Certifications",
-      description:"Attaining professional recognition and enhancing skill sets.",
+      description:
+        "Attaining professional recognition and enhancing skill sets.",
       id: 5,
-    }
+    },
   ]);
 
   return (
     <div id="services">
       <div className="Pcourses">
-      <div className="gradient">
-        <h2>Placement preparation and services</h2>
+        <div className="gradient">
+          <h2>Placement preparation and services</h2>
 
-        <div className="Pcourses-boxes">
-          {courses.map((details) => (
-            <div className="Pcourses-box"  key={details.id}>
-              <img src={details.image} />
-              <h3>{details.title}</h3>
-              <div className="course-details">
-                <p>{details.description}</p>
+          <div className="Pcourses-boxes">
+            {courses.map((details) => (
+              <div className="Pcourses-box" key={details.id}>
+                <img src={details.image} />
+                <h3>{details.title}</h3>
+                <div className="course-details">
+                  <p>{details.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );

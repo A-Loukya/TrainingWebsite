@@ -1,106 +1,105 @@
+.contact {
+  position: relative;
+  width: 90%;
+  height: 200px;
+  border-radius: 101px;
+  border: 1px solid #b8b8b8;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 200px;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 134.9%;
+  color: black;
+}
+.input {
+  border-radius: 30px;
+  border: 1px solid #bfbfbf;
+  background: #f8fff8;
+  width: 30vw;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 22px;
+  margin-right: -50px;
+}
+.input::placeholder {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.9%;
+  letter-spacing: 0.72px;
+  color: #263238;
+}
+.contact button {
+  width: 43px;
+  height: 42px;
+  border-radius: 100%;
+  background-color: #42623e;
+  border: none;
+  position: relative;
+  left: -17px;
+  top: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
 
-.contact{
-    position: relative;
-    width: 90%;
-height: 200px;
-border-radius: 101px;
-border: 1px solid #B8B8B8;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-margin: auto;
-margin-top: 200px;
-}
-.contact h2{
-font-size: 30px;
-font-weight: 600;
-line-height: 134.9%;
-}
-.input{
-    border-radius: 30px;
-border: 1px solid #BFBFBF;
-background: #F8FFF8;
-width: 30vw;
-height: 40px;
-padding: 10px 20px;
-font-size: 22px;
-margin-right: -50px;
-}
-.input::placeholder{
-    font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 134.9%; 
-letter-spacing: 0.72px;
-color: #263238;
-}
-.contact button{
-    width: 43px;
-height: 42px;
-border-radius: 100%;
-background-color:  #42623E;
-border: none;
-position: relative;
-left: -17px;
-top: 5px;
-}
-button:hover{
-    cursor: pointer;
-}
-
-@media screen and (max-width: 1200px){
-.input{
+@media screen and (max-width: 1200px) {
+  .input {
     width: 40vw;
+  }
 }
-}
-@media screen and (max-width: 950px){
-    .input::placeholder{
-        font-size: 20px;
-    
-}
-.contact h2{
+@media screen and (max-width: 950px) {
+  .input::placeholder {
+    font-size: 20px;
+  }
+  .contact h2 {
     font-size: 28px;
     margin-left: 30px;
-}
-.contact{
+  }
+  .contact {
     /* height:150px; */
     border-radius: 80px;
     justify-content: space-between;
+  }
 }
-}
-@media screen and (max-width: 800px){
-    .contact{
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-   .input{
+@media screen and (max-width: 800px) {
+  .contact {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .input {
     width: 50vw;
-   }
-   .contact h2{
+  }
+  .contact h2 {
     margin-left: 0;
-   }
+  }
 }
-@media screen and (max-width: 660px){
-    .contact{
-        width: 90vw;
-    }
-   .input{
+@media screen and (max-width: 660px) {
+  .contact {
+    width: 90vw;
+  }
+  .input {
     width: 65vw;
-   }
-   .contact h2{
+  }
+  .contact h2 {
     margin-left: 0;
-   }
+  }
 }
-@media screen and (max-width: 500px){
-.input{
+@media screen and (max-width: 500px) {
+  .input {
     font-size: 18px;
-}
-.input::placeholder{
+  }
+  .input::placeholder {
     font-size: 14px;
-}
-.contact{
+  }
+  .contact {
     border-radius: 20px;
     margin-left: 0;
-}
+  }
 }
