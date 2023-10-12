@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.eed864e1.css",
-    "main.js": "/TrainingWebsite/static/js/main.90511768.js",
+    "main.css": "/TrainingWebsite/static/css/main.c97ccbc1.css",
+    "main.js": "/TrainingWebsite/static/js/main.e0a5734b.js",
     "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.b7961ac3735c04098c378c4d966dd5b5.svg",
     "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.49f37b2adb2e92ceac279fd6357dd2a4.svg",
-    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.c899c94d4b77e71fdae24c288824127e.svg",
+    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.df831ae245971afd80307e2149944896.svg",
     "static/media/test.svg": "/TrainingWebsite/static/media/test.3487584d4b3ed662c6a72b90c9bc4693.svg",
     "static/media/resumeBuilding.svg": "/TrainingWebsite/static/media/resumeBuilding.b6c0fdba2a101a1048e7d2b9aeac5011.svg",
     "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.c69639d45adbf93dc37345b1b3087997.svg",
@@ -21,11 +21,11 @@
     "index.html": "/TrainingWebsite/index.html",
     "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.7e2d1ef7e6d873c868dc8d6ac8a46b4a.svg",
     "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
-    "main.eed864e1.css.map": "/TrainingWebsite/static/css/main.eed864e1.css.map",
-    "main.90511768.js.map": "/TrainingWebsite/static/js/main.90511768.js.map"
+    "main.c97ccbc1.css.map": "/TrainingWebsite/static/css/main.c97ccbc1.css.map",
+    "main.e0a5734b.js.map": "/TrainingWebsite/static/js/main.e0a5734b.js.map"
   },
   "entrypoints": [
-    "static/css/main.eed864e1.css",
-    "static/js/main.90511768.js"
+    "static/css/main.c97ccbc1.css",
+    "static/js/main.e0a5734b.js"
   ]
 }
