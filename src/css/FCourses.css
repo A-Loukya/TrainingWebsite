@@ -1,183 +1,182 @@
-.courses-bg {
+.courses-bg{
   position: absolute;
   left: 0px;
 }
 
-.freecourses {
+.freecourses{
   position: relative;
   display: flex;
   justify-content: space-between;
   margin-top: 200px;
 }
-.fc-left h6 {
-  color: #34a026;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 1.68px;
+.fc-left h6{
+  color: #34A026;
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 1.68px;
 }
-.fc-left h3 {
+.fc-left h3{
   font-size: 38px;
-  font-weight: 600;
-  line-height: 134.9%;
-  width: 490px;
-  margin-bottom: 14px;
+font-weight: 600;
+line-height: 134.9%;
+width: 490px;
+margin-bottom: 14px;
 }
-.fc-left p {
+.fc-left p{
   width: 490px;
-  font-size: 22px;
-  font-weight: 400;
+font-size: 22px;
+font-weight: 400;
 }
 .fc-boxes::-webkit-scrollbar {
   display: none;
 }
-.fc-right {
-  /* overflow-y: scroll; */
-  overflow: hidden;
-  max-height: 90vh;
-  width: auto;
-  position: relative;
-  color: black;
+.fc-right{
+/* overflow-y: scroll; */
+overflow: hidden;
+max-height: 90vh;
+width: auto;
+position: relative;
 }
-.fc-boxes {
+.fc-boxes{
   overflow-y: scroll;
   height: 90vh;
 }
-.fc-box {
+.fc-box{
   position: relative;
   width: 430px;
-  height: 150px;
-  border-radius: 19px;
-  border: 1px solid #fafafa;
-  background: #fff;
-  padding: 25px;
-  /* display: flex; */
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
+height: 150px;
+border-radius: 19px;
+border: 1px solid #FAFAFA;
+background: #FFF;
+padding: 25px;
+/* display: flex; */
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
 }
-.box-text p {
+.box-text p{
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  width: 280px;
+font-style: normal;
+font-weight: 400;
+width: 280px;
 }
-.box-text h2 {
+.box-text h2{
   font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  /* width: 296px; */
-  margin-bottom: 15px;
+font-style: normal;
+font-weight: 600;
+/* width: 296px; */
+margin-bottom:15px;
 }
-.details {
+.details{
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
-.details h5 {
-  color: #9193a0;
+.details h5{
+  color: #9193A0;
   font-size: 16px;
   font-weight: 500;
   margin-right: 7px;
 }
-.fc-boxes button {
+.fc-boxes button{
   font-size: 18px;
   font-weight: 500;
-  background-color: #ffffff;
-  color: #1888d0;
-  border: 2px solid #1888d0;
+  background-color: #FFFFFF;
+  color: #1888D0;
+  border:  2px solid #1888D0;
   padding: 10px;
   float: right;
   position: relative;
   bottom: 22px;
 }
-.box-text p {
+.box-text p{
   width: 280px;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+font-style: normal;
+font-weight: 400;
 }
-.fc-left img {
+.fc-left img{
   margin-top: 40px;
 }
 
-@media screen and (max-width: 1020px) {
-  .freecourses {
-    flex-wrap: wrap;
-    justify-content: space-around;
+@media screen and (max-width: 1020px){
+  .freecourses{
+      flex-wrap: wrap;
+      justify-content: space-around;
   }
-  .fc-left p {
-    width: 465px;
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .courses-bg {
-    width: 80%;
+  .fc-left p{
+      width: 465px;
+  font-size: 22px;
+  margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 550px) {
-  .fc-left h3 {
-    font-size: 34px;
-    width: 100%;
+@media screen and (max-width: 650px){
+.courses-bg{
+  width: 80%;
+}
+}
+@media screen and (max-width: 550px){
+  .fc-left h3{
+      font-size: 34px;
+  width: 100%;
   }
-  .fc-left p {
-    width: 100%;
+  .fc-left p{
+      width: 100%;
   }
-  .freecourses {
-    padding: 7%;
+  .freecourses{
+      padding: 7%;
   }
-  .fc-box {
-    width: 100%;
-    padding: 3%;
-    /* height: fit-content; */
-    height: 200px;
+  .fc-box{
+      width: 100%;
+      padding: 3%;
+      /* height: fit-content; */
+      height: 200px;
   }
-  .box-text p {
-    font-size: 18px;
-    width: 90%;
+  .box-text p{
+      font-size: 18px;
+  width: 90%;
   }
-  .box-text h2 {
-    font-size: 20px;
-    width: 90%;
-    margin-bottom: 15px;
+  .box-text h2{
+      font-size: 20px;
+  width: 90%;
+  margin-bottom:15px;
   }
-  .FCimg {
-    margin-right: 4%;
+  .FCimg{
+      margin-right: 4%;
   }
-  .fc-left {
-    margin-right: 0;
+  .fc-left{
+     margin-right: 0;
   }
-  .fc-boxes button {
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #ffffff;
-    color: #1888d0;
-    border: 2px solid #1888d0;
-    padding: 8px;
-    float: right;
-    position: relative;
-    bottom: 18px;
+  .fc-boxes button{
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #FFFFFF;
+      color: #1888D0;
+      border:  2px solid #1888D0;
+      padding: 8px;
+      float: right;
+      position: relative;
+      bottom: 18px;
   }
-  .fc-right {
-    width: 100%;
+  .fc-right{
+      width: 100%;
   }
-  .fc-box {
-    width: 85%;
-    /* height: auto; */
+  .fc-box{
+      width: 85%;
+      /* height: auto; */
   }
 }
-@media screen and (max-width: 480px) {
-  .fc-right button {
-    float: left;
-    bottom: 0px;
-    margin-top: 5%;
+@media screen and (max-width: 480px){
+  .fc-right button{
+      float: left;
+      bottom: 0px;
+      margin-top: 5%;
   }
 }
 
-@media screen and (max-width: 1240px) {
-  .freecourses {
-    justify-content: space-evenly;
+@media screen and (max-width: 1240px){
+  .freecourses{
+      justify-content: space-evenly;
   }
 }
 .shadow {
@@ -191,8 +190,8 @@
 
 .shadow--top {
   top: 0;
-  background: -webkit-linear-gradient(270deg, #d8fdd273, transparent);
-  background: linear-gradient(180deg, #d8fdd273, transparent);
+  background: -webkit-linear-gradient(270deg,  #d8fdd273, transparent);
+  background: linear-gradient(180deg,  #d8fdd273, transparent);
   /* opacity: 0; */
 }
 

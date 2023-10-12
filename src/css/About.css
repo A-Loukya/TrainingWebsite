@@ -1,157 +1,155 @@
-.ourProgram {
+.ourProgram{
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+
 }
-.op-main {
+.op-main{
   width: 370px;
   margin-top: 70px;
 }
-.op-main h1 {
+.op-main h1{
   font-size: 56px;
-  font-weight: 600;
-  margin-bottom: 15px;
+font-weight: 600;
+margin-bottom: 15px;
 }
-.ourProgram p {
+.ourProgram p{
   font-size: 20px;
   font-weight: 400;
 }
-.op h4 {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 10px;
+.op h4{
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 10px;
 }
-.op {
+.op{
   text-align: center;
   width: 300px;
 }
 
-.traningServices h2 {
+
+.traningServices h2{
   font-size: 34px;
-  font-weight: 600;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  text-align: center;
+font-weight: 600;
+margin-top: 150px;
+margin-bottom: 100px;
+text-align: center;
 }
-.ts-details {
+.ts-details{
   /* flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; */
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two boxes in each row */
-  gap: 30px;
-  justify-items: center; /* Center the boxes horizontally within each grid cell */
-  align-content: center;
-  color: black;
+grid-template-columns: repeat(2, 1fr); /* Two boxes in each row */
+gap: 30px;
+justify-items: center; /* Center the boxes horizontally within each grid cell */
+align-content: center;
 }
-.box {
+.box{
   width: 80%;
-  height: 65%;
-  border-radius: 15px;
-  background: #fff;
-  /* box-shadow: 0px 4px 9px 3px rgba(0, 0, 0, 0.25); */
-  box-shadow: rgba(255, 255, 255, 0.157) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  padding: 40px 30px;
+height: 65%;
+border-radius: 15px;
+background: #FFF;
+/* box-shadow: 0px 4px 9px 3px rgba(0, 0, 0, 0.25); */
+box-shadow: rgba(255, 255, 255, 0.157) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+padding: 40px 30px;
 }
-.box h5 {
+.box h5{
   font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  margin-bottom: 30px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 30px;
 }
-.box p {
+.box p{
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+font-style: normal;
+font-weight: 400;
 }
 
-@media screen and (max-width: 1220px) {
-  .ts-details {
-    /* flex-wrap: wrap;
-        justify-content: space-evenly; */
-    /* grid-auto-flow: row;
-        align-content: start; */
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(50%, 1fr)
-    ); /* Two columns in each row, with auto-fit */
-    max-width: 1220px; /* Set the maximum width to 1220px */
-    margin: 0 auto;
+@media screen and (max-width: 1220px){
+  .ts-details{
+      /* flex-wrap: wrap;
+      justify-content: space-evenly; */
+      /* grid-auto-flow: row;
+      align-content: start; */
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Two columns in each row, with auto-fit */
+      max-width: 1220px; /* Set the maximum width to 1220px */
+      margin: 0 auto;
   }
 }
-@media screen and (max-width: 1140px) {
-  .op-main h1 {
-    font-size: 54px;
-    width: 200px;
+@media screen and (max-width: 1140px){
+  .op-main h1{
+      font-size: 54px;
+      width: 200px;
   }
 }
-@media screen and (max-width: 1000px) {
-  .op-main h1 {
-    width: auto;
-    margin: auto;
+@media screen and (max-width: 1000px){
+  .op-main h1{
+      width: auto;
+      margin: auto;
   }
-  .op-main {
-    min-width: 100%;
-    text-align: center;
+  .op-main{
+      min-width: 100%;
+      text-align: center;
   }
-  .op-main p {
-    width: 400px;
-    margin: auto;
-    margin-top: 20px;
+  .op-main p{
+      width: 400px;
+      margin: auto;
+      margin-top: 20px;
   }
-  .ourProgram {
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media screen and (max-width: 719px) {
-  .op-main h1 {
-    font-size: 52px;
-  }
-  .traningServices h2 {
-    font-size: 32px;
-  }
-  .op h4 {
-    font-size: 24px;
-  }
-  .ts-details {
-    gap: 15px;
-  }
-  .box {
-    /* width: 80%; */
-    /* padding: 30px 20px; */
-    height: auto;
+  .ourProgram{
+      flex-wrap: wrap;
+      justify-content: space-around;
   }
 }
-@media screen and (max-width: 400px) {
-  .op-main p {
-    width: 80%;
-    font-size: 18px;
+@media screen and (max-width: 719px){
+  
+  .op-main h1{
+      font-size: 52px;
   }
-  .op-main h1 {
-    font-size: 50px;
+  .traningServices h2{
+      font-size: 32px;
   }
-  .traningServices h2 {
-    font-size: 30px;
+  .op h4{
+      font-size: 24px;
   }
-  .op h4 {
-    font-size: 22px;
+  .ts-details{
+      gap: 15px;
   }
-  .box p {
-    font-size: 18px;
+  .box{
+      /* width: 80%; */
+  /* padding: 30px 20px; */
+  height: auto;
   }
-  .ourProgram p {
-    font-size: 18px;
+}
+@media screen and (max-width: 400px){
+ 
+  .op-main p{
+      width: 80%;
+      font-size: 18px;
+  }
+  .op-main h1{
+      font-size: 50px;
+  }
+  .traningServices h2{
+      font-size: 30px;
+  }
+  .op h4{
+      font-size: 22px;
+  }
+  .box p{
+      font-size: 18px;
+  }
+  .ourProgram p{
+      font-size: 18px;
   }
 }
 
-@media screen and (max-width: 1240px) {
-  .ourProgram {
-    justify-content: space-evenly;
+@media screen and (max-width: 1240px){
+  .ourProgram{
+      justify-content: space-evenly;
   }
 }
