@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.1631eab6.css",
-    "main.js": "/TrainingWebsite/static/js/main.6624ffc3.js",
-    "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.5958d45b0e4ef0ddb87ef25f13d078f6.svg",
-    "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.d4bd096a71abfc32a042cfe8c175c633.svg",
-    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.debdf262c75b7e4ad52097297fa491a2.svg",
-    "static/media/test.svg": "/TrainingWebsite/static/media/test.8b3a3bb59f1da0d79b7be46093e38e27.svg",
-    "static/media/resumeBuilding.svg": "/TrainingWebsite/static/media/resumeBuilding.3a4b026a9d0ce4b8b9db238c17ad0ab5.svg",
-    "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.71208f15c314a769e3d43a51f5da5a92.svg",
-    "static/media/certification.svg": "/TrainingWebsite/static/media/certification.a99b27ea198383e35551119c0f4acdc7.svg",
-    "static/media/MockInterview.svg": "/TrainingWebsite/static/media/MockInterview.29ef7b74ddcf2aff00169b26a3343e27.svg",
-    "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.b01884b24dff80c20003a51c2b02b13b.svg",
-    "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.014215cf42a7f579b7661182c8f6854f.svg",
-    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.4475a20da7e2b2018d48af49bf912d27.svg",
-    "static/media/video.svg": "/TrainingWebsite/static/media/video.51d4308a39f12174b533e7ffce428427.svg",
-    "static/media/LOGO.svg": "/TrainingWebsite/static/media/LOGO.e660f3f47e5805f7e698a856b25288e8.svg",
-    "static/media/star.svg": "/TrainingWebsite/static/media/star.ca85adcba169f01d596b55d1edb597f8.svg",
+    "main.css": "/TrainingWebsite/static/css/main.eed864e1.css",
+    "main.js": "/TrainingWebsite/static/js/main.90511768.js",
+    "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.b7961ac3735c04098c378c4d966dd5b5.svg",
+    "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.49f37b2adb2e92ceac279fd6357dd2a4.svg",
+    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.c899c94d4b77e71fdae24c288824127e.svg",
+    "static/media/test.svg": "/TrainingWebsite/static/media/test.3487584d4b3ed662c6a72b90c9bc4693.svg",
+    "static/media/resumeBuilding.svg": "/TrainingWebsite/static/media/resumeBuilding.b6c0fdba2a101a1048e7d2b9aeac5011.svg",
+    "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.c69639d45adbf93dc37345b1b3087997.svg",
+    "static/media/certification.svg": "/TrainingWebsite/static/media/certification.87d3b894a1c8b39dc8d1ed0243753dae.svg",
+    "static/media/MockInterview.svg": "/TrainingWebsite/static/media/MockInterview.f4e7e343fd00974ab7a3236b78fc82c6.svg",
+    "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.3b2d07989eb98e0d773c3b387c03420d.svg",
+    "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.691728607cb5fc8525633c3720f4e6ae.svg",
+    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.135bad764cc17d57110a4bf69408ff31.svg",
+    "static/media/video.svg": "/TrainingWebsite/static/media/video.0f43412ec5ca69d38205b87e06acdca9.svg",
+    "static/media/LOGO.svg": "/TrainingWebsite/static/media/LOGO.8d7c97f6be93fd18701f3a2942242557.svg",
+    "static/media/star.svg": "/TrainingWebsite/static/media/star.eefe752f538937e0e20cc1c421b41ff9.svg",
     "static/media/linkedin.svg": "/TrainingWebsite/static/media/linkedin.483d3912bd10b48fe31bd134096dd4ec.svg",
     "static/media/twitter.svg": "/TrainingWebsite/static/media/twitter.9d78307cc54892fa67b3e637a5ca4401.svg",
     "index.html": "/TrainingWebsite/index.html",
-    "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.8c9f44da7c8d8c794a62227840dad0fe.svg",
+    "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.7e2d1ef7e6d873c868dc8d6ac8a46b4a.svg",
     "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
-    "main.1631eab6.css.map": "/TrainingWebsite/static/css/main.1631eab6.css.map",
-    "main.6624ffc3.js.map": "/TrainingWebsite/static/js/main.6624ffc3.js.map"
+    "main.eed864e1.css.map": "/TrainingWebsite/static/css/main.eed864e1.css.map",
+    "main.90511768.js.map": "/TrainingWebsite/static/js/main.90511768.js.map"
   },
   "entrypoints": [
-    "static/css/main.1631eab6.css",
-    "static/js/main.6624ffc3.js"
+    "static/css/main.eed864e1.css",
+    "static/js/main.90511768.js"
   ]
 }
