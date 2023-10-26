@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.c97ccbc1.css",
-    "main.js": "/TrainingWebsite/static/js/main.e0a5734b.js",
-    "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.b7961ac3735c04098c378c4d966dd5b5.svg",
-    "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.49f37b2adb2e92ceac279fd6357dd2a4.svg",
-    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.df831ae245971afd80307e2149944896.svg",
-    "static/media/test.svg": "/TrainingWebsite/static/media/test.3487584d4b3ed662c6a72b90c9bc4693.svg",
-    "static/media/resumeBuilding.svg": "/TrainingWebsite/static/media/resumeBuilding.b6c0fdba2a101a1048e7d2b9aeac5011.svg",
-    "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.c69639d45adbf93dc37345b1b3087997.svg",
-    "static/media/certification.svg": "/TrainingWebsite/static/media/certification.87d3b894a1c8b39dc8d1ed0243753dae.svg",
-    "static/media/MockInterview.svg": "/TrainingWebsite/static/media/MockInterview.f4e7e343fd00974ab7a3236b78fc82c6.svg",
-    "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.3b2d07989eb98e0d773c3b387c03420d.svg",
-    "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.691728607cb5fc8525633c3720f4e6ae.svg",
-    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.135bad764cc17d57110a4bf69408ff31.svg",
+    "main.css": "/TrainingWebsite/static/css/main.de92d883.css",
+    "main.js": "/TrainingWebsite/static/js/main.05fa9f81.js",
+    "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.53cee889d21eb245202d31416634dbb8.svg",
+    "static/media/test.svg": "/TrainingWebsite/static/media/test.b7d0438b48fdaacf680481ff48fcda5a.svg",
+    "static/media/resumeBuilding.svg": "/TrainingWebsite/static/media/resumeBuilding.5a090ecf997d3839bfa9222db1f9c60e.svg",
+    "static/media/FC-image.svg": "/TrainingWebsite/static/media/FC-image.2cbdbc580f6c3738cdd4e635c099aa69.svg",
+    "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.a04a52cb71ee70b7097b3651cca6957d.svg",
+    "static/media/certification.svg": "/TrainingWebsite/static/media/certification.172f73bf027abb60891b26ddb306258f.svg",
+    "static/media/MockInterview.svg": "/TrainingWebsite/static/media/MockInterview.1311cf470f8904c3d075051c7a0b47fa.svg",
+    "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.c933851d99575f01c54376529491efd1.svg",
+    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.45589beb9dc1a2bc6848f5b99c8e413e.svg",
     "static/media/video.svg": "/TrainingWebsite/static/media/video.0f43412ec5ca69d38205b87e06acdca9.svg",
+    "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.46ac571d11546213276daba9f5845f90.svg",
+    "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.548cbbf80508ccb71620752f1be56cd9.svg",
     "static/media/LOGO.svg": "/TrainingWebsite/static/media/LOGO.8d7c97f6be93fd18701f3a2942242557.svg",
     "static/media/star.svg": "/TrainingWebsite/static/media/star.eefe752f538937e0e20cc1c421b41ff9.svg",
     "static/media/linkedin.svg": "/TrainingWebsite/static/media/linkedin.483d3912bd10b48fe31bd134096dd4ec.svg",
@@ -21,11 +21,11 @@
     "index.html": "/TrainingWebsite/index.html",
     "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.7e2d1ef7e6d873c868dc8d6ac8a46b4a.svg",
     "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
-    "main.c97ccbc1.css.map": "/TrainingWebsite/static/css/main.c97ccbc1.css.map",
-    "main.e0a5734b.js.map": "/TrainingWebsite/static/js/main.e0a5734b.js.map"
+    "main.de92d883.css.map": "/TrainingWebsite/static/css/main.de92d883.css.map",
+    "main.05fa9f81.js.map": "/TrainingWebsite/static/js/main.05fa9f81.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97ccbc1.css",
-    "static/js/main.e0a5734b.js"
+    "static/css/main.de92d883.css",
+    "static/js/main.05fa9f81.js"
   ]
 }
