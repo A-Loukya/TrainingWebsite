@@ -52,7 +52,7 @@ const Home = () => {
       <div className="home">
         <div className="home-left">
           <p className="typing-ani">INTRODUCING INTEGRATED</p>
-          <h2> Learning and Career Development Hub</h2>
+          <h2><span className="color-green">Learning </span> and Career <span className="color-green">Development</span> Hub</h2>
           <p className="home-text">
             We provide diverse training, placement, internships, and education
             services, fostering holistic growth for students, corporates, and

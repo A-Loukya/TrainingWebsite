@@ -13,6 +13,7 @@ margin: auto;
 margin-top: 200px;
 }
 .contact h2{
+  color: #00A9FF;
 font-size: 30px;
 font-weight: 600;
 line-height: 134.9%;
@@ -20,7 +21,7 @@ line-height: 134.9%;
 .input{
   border-radius: 30px;
 border: 1px solid #BFBFBF;
-background: #F8FFF8;
+background: #EEEDED;
 width: 30vw;
 height: 40px;
 padding: 10px 20px;
@@ -39,7 +40,7 @@ color: #263238;
   width: 43px;
 height: 42px;
 border-radius: 100%;
-background-color:  #42623E;
+background-color:  #000;
 border: none;
 position: relative;
 left: -17px;
