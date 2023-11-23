@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import home_bg from "../Images/home-bg.svg";
 import logo from "../Images/LOGO.svg";
 import home_img from "../Images/home-img.svg";
@@ -11,11 +12,23 @@ const Home = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
+    const [isActive, setIsActive] = useState(false);
+  
+    useEffect(() => {
+      // Set isActive to true after the component has mounted
+      setIsActive(true);
+  
+      // Optionally, you can set isActive to false when the component is unmounted
+      return () => {
+        setIsActive(false);
+      };
+    }, []);
 
   return (
     // home page
     <div className="main" id="home">
-      <img src={home_bg} className="home-bg" alt="Home Background" />
+      <img src={home_bg} className={`home-bg ${isActive ? 'active' : ''}`} alt="Home Background" />
       <nav>
         <img src={logo} className="logo" alt="Logo" />
         <div className={`navbar ${menuOpen ? "active" : ""}`}>
@@ -51,8 +64,8 @@ const Home = () => {
 
       <div className="home">
         <div className="home-left">
-          <p className="typing-ani">INTRODUCING INTEGRATED</p>
-          <h2><span className="color-green">Learning </span> and Career <span className="color-green">Development</span> Hub</h2>
+        <h2>Introducing Integrated
+           <span className="text-color"> Learning</span> and<span className="text-color"> Career Development</span>  Hub</h2>
           <p className="home-text">
             We provide diverse training, placement, internships, and education
             services, fostering holistic growth for students, corporates, and

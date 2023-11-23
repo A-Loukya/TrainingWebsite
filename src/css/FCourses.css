@@ -10,13 +10,12 @@
   margin-top: 200px;
 }
 .fc-left h6{
-  color: #00A9FF;
+  color: #34A026;
 font-size: 22px;
 font-weight: 600;
 letter-spacing: 1.68px;
 }
 .fc-left h3{
-  color: #003E11;
   font-size: 38px;
 font-weight: 600;
 line-height: 134.9%;
@@ -48,7 +47,7 @@ position: relative;
 height: 150px;
 border-radius: 19px;
 border: 1px solid #FAFAFA;
-background: #F9F9F9;
+background: #FFF;
 padding: 25px;
 /* display: flex; */
 align-items: center;
@@ -62,7 +61,6 @@ font-weight: 400;
 width: 280px;
 }
 .box-text h2{
-  color: #2F4858;
   font-size: 24px;
 font-style: normal;
 font-weight: 600;
@@ -75,7 +73,6 @@ margin-bottom:15px;
   margin-top: 10px;
 }
 .details h5{
-  
   color: #9193A0;
   font-size: 16px;
   font-weight: 500;
@@ -193,13 +190,13 @@ font-weight: 400;
 
 .shadow--top {
   top: 0;
-  background: -webkit-linear-gradient(270deg,  #E4F1FF, transparent);
-  background: linear-gradient(180deg,  #E4F1FF, transparent);
+  background: -webkit-linear-gradient(270deg,  #d8fdd273, transparent);
+  background: linear-gradient(180deg,  #d8fdd273, transparent);
   /* opacity: 0; */
 }
 
 .shadow--bottom {
   bottom: 0;
-  background: -webkit-linear-gradient(0deg, #E4F1FF, transparent);
-  background: linear-gradient(0deg, #E4F1FF, transparent);
+  background: -webkit-linear-gradient(0deg, #d8fdd273, transparent);
+  background: linear-gradient(0deg, #d8fdd273, transparent);
 }
