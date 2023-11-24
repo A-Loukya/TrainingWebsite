@@ -4,6 +4,8 @@ import PCImg2 from "../Images/test.svg";
 import PCImg3 from "../Images/MockInterview.svg";
 import PCImg4 from "../Images/counselling.svg";
 import PCImg5 from "../Images/certification.svg";
+import PrevBtn from "../Images/prevbtn.svg";
+import NextBtn from "../Images/Nextbtn.svg";
 import star from "../Images/star.svg";
 import { useState } from "react";
 const Pcourses = () => {
@@ -45,27 +47,27 @@ const Pcourses = () => {
   const cardWidth = 490;
 
   const handlePrev = () => {
-    setCurrentSlide(Math.max(currentSlide - 1, 0));
+    setCurrentSlide((currentSlide - 1 + courses.length) % courses.length);
+
   };
 
   const handleNext = () => {
-    const maxSlides = 0;
-    setCurrentSlide(Math.min(currentSlide + 1, courses.length - maxSlides));
+    setCurrentSlide((currentSlide + 1) % courses.length);
   };
 
   return (
     <div id="services">
+        <div className="gradient">
       <div className="Pcourses main">
-        {/* <div className="gradient"> */}
         <div className="Pcourses-left">
           <h2>Placement preparation and services</h2>
           <p>Elevate your career with services like resume building, psychometric tests, mock interviews, and counseling.</p>
           <div className="carousel-btns">
         <button className="carousel-button left" onClick={handlePrev}>
-          &lt;
+         <img src={PrevBtn} width="26px"/>
         </button>
         <button className="carousel-button right" onClick={handleNext}>
-          &gt;
+        <img src={NextBtn} width="26px"/>
         </button>
         </div>
         </div>
@@ -90,6 +92,7 @@ const Pcourses = () => {
       </div>
           
         
+      </div>
       </div>
      </div>
   );
