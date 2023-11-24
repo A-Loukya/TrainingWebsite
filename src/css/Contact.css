@@ -10,7 +10,8 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 margin: auto;
-margin-top: 200px;
+margin-top: 300px;
+margin-bottom: 300px;
 }
 .contact h2{
 font-size: 30px;
@@ -39,7 +40,7 @@ color: #263238;
   width: 43px;
 height: 42px;
 border-radius: 100%;
-background-color:  #42623E;
+background-color:  #327EA4;
 border: none;
 position: relative;
 left: -17px;

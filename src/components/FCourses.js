@@ -77,6 +77,7 @@ const FCourses = () => {
               {courses.map((details) => (
                 <div className="fc-box " key={details.id}>
                   <div className="box-text">
+                    <div>
                     <h2>{details.title}</h2>
                     <p>{details.description}</p>
                     <div className="details">
@@ -86,6 +87,7 @@ const FCourses = () => {
                     <div className="details">
                       <h5>stipend:</h5>
                       <span>{details.stipend}/month</span>
+                    </div>
                     </div>
                     <button>VIEW DETAILS</button>
                   </div>

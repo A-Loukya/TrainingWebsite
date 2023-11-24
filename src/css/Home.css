@@ -17,7 +17,7 @@ body{
    /* max-width: 1400px; */
    margin: auto;
 }
-a{
+.navlinks a{
    text-decoration: none;
    color: white;
    margin-left: 50px;
@@ -101,7 +101,7 @@ border: none;
  
  /* Add a class to trigger the animation */
  .home-bg.active {
-   height: 200%; /* Full height of the viewport */
+   height: 100vw; /* Full height of the viewport */
  }
  
  
