@@ -70,8 +70,8 @@ font-style: normal;
 font-weight: 300;
 line-height: 150%; 
 }
-nav h3:hover{
-   cursor: pointer;
+nav h3{
+   transition: transform 0.3s;
 }
 .signIn-btn{
 width: 200px;
@@ -181,7 +181,7 @@ align-items: center;
 justify-content: center;
 }
 .navbar h3:hover{
-   opacity: 0.8;
+   transform: scale(1.05);
 }
 .hamburger-menu {
    display: none;
@@ -224,22 +224,22 @@ justify-content: center;
 @media screen and (max-width: 1140px){
    .home-left h2{
        font-size: 48px;
-   width: 500px;
+   /* width: 500px; */
    }
    .home-text{
        font-size: 20px;
-   width: 450px;
+   /* width: 450px; */
    }
 }
 @media screen and (max-width: 1025px){
    
    .home-left h2{
        font-size: 46px;
-   width: 400px;
+   /* width: 400px; */
    }
    .home-text{
        font-size: 20px;
-   width: 450px;
+   /* width: 450px; */
    }
    .typing-ani{
        color: #34A026;
@@ -260,11 +260,12 @@ justify-content: center;
 @media screen and (max-width: 950px){
    .home-left h2{
        font-size: 44px;
-   width: 400px;
+   width: 780px;
+   /* margin: 0 80px; */
    }
    .home-text{
        font-size: 20px;
-   width: 400px;
+   /* width: 400px; */
    }
    .homeBtn1{
    width: 150px;
@@ -277,10 +278,11 @@ justify-content: center;
 }
 @media screen and (max-width: 900px){
    .home{
-       flex-wrap: wrap;
-       flex-direction: column-reverse;
+       /* flex-wrap: wrap; */
+       /* flex-direction: column-reverse; */
        padding: 40px;
    }
+   
    .home-left h2{
        font-size: 44px;
    width: 100%;
@@ -307,9 +309,7 @@ justify-content: center;
        justify-content: center;
    margin-top: 65px;
 }
-.home-bg{
-   width: 80%;
-}
+
 }
 @media screen and (max-width: 890px) {
 
@@ -348,9 +348,7 @@ justify-content: center;
        align-self: flex-start;
        margin-left: 40px;
    } */
-   .home-bg{
-       display: none;
-   }
+   
    .logo {
        /* position: fixed; */
        top: 30px;
@@ -360,6 +358,8 @@ justify-content: center;
    
 
    .navbar.active {
+      
+      background-color: #196F98;
        right: 0;
    }
    .home{
@@ -414,7 +414,9 @@ justify-content: center;
        margin-top: 30px;
    }
    
-
+.home-left{
+   margin-top: 100px;
+}
 }
 
 
@@ -425,10 +427,10 @@ justify-content: center;
        align-items: center;
    }
    .homeBtn1{
-      width: 40%;
+      width: 50%;
    }
    .homeBtn2{
-      width: 40%;
+      width: 50%;
    }
    .home-left h2{
        font-size: 38px;
@@ -436,21 +438,48 @@ justify-content: center;
    .home-text{
        font-size: 20px;
    width: 100%;
-   }
+   }.home-img{
+      width: 80%;
+  }
 }
 @media screen and (max-width: 540px){
-   .home-img{
-       width: 80%;
-   }
-   .home{
-       padding: 20px;
-   }
+   
+   
    .logo {
        top: 2%;
        left: 5%; 
        z-index: 20; 
      }
+     .home-bg.active{
+      width: 100%;
+     }
+   }
+@media screen and (max-width: 590px){
+   .home-bg.active{
+      height: 120vw;
+      width: 102%;
+     }
+
 }
+    
+@media screen and (max-width: 590px){
+   .home{
+      background-color: #196F98;
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+     }
+     .home-bg{
+      display: none;
+     }
+     .hamburger-menu{
+      margin-top: 30px;
+     }
+     .home-left{
+      margin-top: 150px;
+     }
+
+}
+    
 @media screen and (max-width: 420px){
    /* .homeBtn1{
        width: 180px;
@@ -467,4 +496,14 @@ justify-content: center;
    .typing-ani{
        font-size: 18px;
    }
+   .homeBtn1{
+      width: 80%;
+      font-size: 14px;
+   
+}
+   .homeBtn2{
+      width: 80%;
+      font-size: 14px;
+   
+}
 }

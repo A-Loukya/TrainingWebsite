@@ -12,14 +12,14 @@
   margin-top: 70px;
 }
 .op-main h1{
-  color: #327EA4;
+  /* color: #327EA4; */
   font-size: 56px;
 font-weight: 600;
 margin-bottom: 15px;
 }
 .ourProgram p{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .op h4{
   /* color: #0D6793; */
@@ -35,7 +35,7 @@ margin-bottom: 10px;
 
 .traningServices h2{
   font-size: 34px;
-  color: #327EA4;
+  /* color: #327EA4; */
 font-weight: 600;
 margin-top: 150px;
 margin-bottom: 100px;
@@ -71,7 +71,7 @@ margin-bottom: 30px;
 .box p{
   font-size: 20px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 }
 
 @media screen and (max-width: 1220px){

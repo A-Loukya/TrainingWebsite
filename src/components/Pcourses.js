@@ -41,11 +41,57 @@ const Pcourses = () => {
       id: 5,
     },
   ]);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const cardWidth = 490;
+
+  const handlePrev = () => {
+    setCurrentSlide(Math.max(currentSlide - 1, 0));
+  };
+
+  const handleNext = () => {
+    const maxSlides = 0;
+    setCurrentSlide(Math.min(currentSlide + 1, courses.length - maxSlides));
+  };
 
   return (
     <div id="services">
-      
-    </div>
+      <div className="Pcourses main">
+        {/* <div className="gradient"> */}
+        <div className="Pcourses-left">
+          <h2>Placement preparation and services</h2>
+          <p>Elevate your career with services like resume building, psychometric tests, mock interviews, and counseling.</p>
+          <div className="carousel-btns">
+        <button className="carousel-button left" onClick={handlePrev}>
+          &lt;
+        </button>
+        <button className="carousel-button right" onClick={handleNext}>
+          &gt;
+        </button>
+        </div>
+        </div>
+        <div className="carousel">
+        {/* carousel-1 */}
+        <div
+          className="Pcourses-boxes"
+          style={{ transform: `translateX(-${currentSlide * cardWidth}px)` }}
+        >
+          {/* carousel mapping for data-1 */}
+          {courses.map((details) => (
+              <div className="Pcourses-box" key={details.id}>
+                <img src={details.image} />
+                <h3>{details.title}</h3>
+                <div className="course-details">
+                  <p>{details.description}</p>
+                </div>
+              </div>
+            ))}
+        </div>
+        
+      </div>
+          
+        
+      </div>
+     </div>
   );
 };
 

@@ -6,33 +6,77 @@
 
 }
 .Pcourses{
+  display: flex;
+  align-items: center;
   height: 530px;
   width: 100vw;
-  background-color:#D8FDD2;
-  margin: 160px 0;
+  margin: 160px auto;
   padding: 90px 0px ;
+ 
+}
+.Pcourses-left p{
+margin: 20px 0;
+width: 450px;
+font-size: 22px;
+font-weight: 300;
 }
 body::-webkit-scrollbar {
   display: none;
 }
 .Pcourses h2{
+  /* color: #327EA4; */
   font-size: 34px;
 font-style: normal;
 font-weight: 600;
-text-align: center;
+/* text-align: center; */
+}
+.carousel{
+  width: 50vw;
+  overflow: hidden;
+  float: right;
 }
 .Pcourses-boxes{
+  transition: transform 0.5s ease;
   display: flex;
   /* justify-content: space-evenly; */
-  overflow-x: scroll;
-  width: 100%;
+  /* float: right; */
+  /* overflow: hidden; */
+  width: 50%;
 }
-.Pcourses-boxes::-webkit-scrollbar {
+.carousel-button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #327EA4;
+  border: 1px solid #327EA4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 26px;
+  transition: transform 0.3s;
+  /* box-shadow: 0px 25px 50px 0px rgba(22, 25, 79, 0.15); */
+  margin-right: 15px;
+}
+.carousel-btns {
+  display: flex;
+  
+}
+
+.carousel-button:hover {
+  transform: scale(1.05);
+  font-size: 28px;
+}
+
+
+/* .Pcourses-boxes::-webkit-scrollbar {
   display: none;
-}
+} */
 .Pcourses-box{
+  
   border-radius: 10px;
-background: #F8FFF8;
+background: #F9FAFB;
 width: 370px;
 height: 400px;
 padding: 30px 20px;
@@ -62,12 +106,33 @@ font-weight: 400;
 
 
 
+@media screen and (max-width: 1000px){
+.Pcourses{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Pcourses h2{
+  width: 455px;
+}
+.carousel-btns{
+  justify-content: center;
+}
+.carousel{
+  width: 70%;
+}
+}
+
 @media screen and (max-width: 800px){
   .Pcourses h2{
       font-size: 32px;
   }
   .Pcourses-box h3{
       font-size: 22px;
+  }
+}
+@media screen and (max-width: 590px){
+  .carousel{
+    width: 490px;
   }
 }
 @media screen and (max-width: 550px){
@@ -83,7 +148,28 @@ font-weight: 400;
 }
 @media screen and (max-width: 482px){
 .Pcourses-box{
-  margin: 80px 20px;
-  width: 80%;
+  margin-top: 80px ;
+  margin-bottom: 80px ;
+  margin-right: 10px ;
+  margin-left: 5px;
 }
+.Pcourses h2{
+  width: auto;
+}
+.Pcourses p{
+  width: auto;
+}
+.Pcourses-left{
+  padding-left: 5px;
+}
+.carousel{
+  overflow-x: scroll;
+}
+.carousel-btns{
+  display: none;
+}
+}
+@media screen and (max-width: 410px){
+  
+
 }
