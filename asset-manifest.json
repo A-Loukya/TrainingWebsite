@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.63e32dd1.css",
-    "main.js": "/TrainingWebsite/static/js/main.99625bd1.js",
+    "main.css": "/TrainingWebsite/static/css/main.5d516a4c.css",
+    "main.js": "/TrainingWebsite/static/js/main.300ac5e8.js",
     "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.4a50d251a5c7f3b3ab86e28eff1461c9.svg",
     "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.49f37b2adb2e92ceac279fd6357dd2a4.svg",
     "static/media/test.svg": "/TrainingWebsite/static/media/test.3487584d4b3ed662c6a72b90c9bc4693.svg",
@@ -11,7 +11,7 @@
     "static/media/MockInterview.svg": "/TrainingWebsite/static/media/MockInterview.f4e7e343fd00974ab7a3236b78fc82c6.svg",
     "static/media/home-img.svg": "/TrainingWebsite/static/media/home-img.568e38e1c994cba9f162ad93e852ef1f.svg",
     "static/media/Light bulb.svg": "/TrainingWebsite/static/media/Light bulb.3b2d07989eb98e0d773c3b387c03420d.svg",
-    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.135bad764cc17d57110a4bf69408ff31.svg",
+    "static/media/courses-bg.svg": "/TrainingWebsite/static/media/courses-bg.f8a1104494a164982d1dac6cfb7c370c.svg",
     "static/media/LOGO.svg": "/TrainingWebsite/static/media/LOGO.8d7c97f6be93fd18701f3a2942242557.svg",
     "static/media/video.svg": "/TrainingWebsite/static/media/video.d143a11b1f749c31d7021de390bc9e6b.svg",
     "static/media/star.svg": "/TrainingWebsite/static/media/star.eefe752f538937e0e20cc1c421b41ff9.svg",
@@ -21,11 +21,11 @@
     "static/media/arrow.svg": "/TrainingWebsite/static/media/arrow.7e2d1ef7e6d873c868dc8d6ac8a46b4a.svg",
     "static/media/instagram.svg": "/TrainingWebsite/static/media/instagram.00049ecddb52b1aebdcef55bbb5ecaed.svg",
     "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.9e57ec33fd9f6cc8c214cd736f98cc88.svg",
-    "main.63e32dd1.css.map": "/TrainingWebsite/static/css/main.63e32dd1.css.map",
-    "main.99625bd1.js.map": "/TrainingWebsite/static/js/main.99625bd1.js.map"
+    "main.5d516a4c.css.map": "/TrainingWebsite/static/css/main.5d516a4c.css.map",
+    "main.300ac5e8.js.map": "/TrainingWebsite/static/js/main.300ac5e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.63e32dd1.css",
-    "static/js/main.99625bd1.js"
+    "static/css/main.5d516a4c.css",
+    "static/js/main.300ac5e8.js"
   ]
 }
