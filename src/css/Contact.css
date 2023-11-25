@@ -10,7 +10,7 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 margin: auto;
-margin-top: 300px;
+margin-top: 450px;
 margin-bottom: 300px;
 }
 .contact h2{
@@ -19,47 +19,56 @@ font-weight: 600;
 line-height: 134.9%;
 }
 .input{
-  border-radius: 30px;
-border: 1px solid #BFBFBF;
-background: #F8FFF8;
-width: 30vw;
-height: 40px;
-padding: 10px 20px;
-font-size: 22px;
-margin-right: -50px;
-}
-.input::placeholder{
-  font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 134.9%; 
-letter-spacing: 0.72px;
-color: #263238;
-}
-.contact button{
-  width: 43px;
-height: 42px;
-border-radius: 100%;
-background-color:  #327EA4;
-border: none;
-position: relative;
-left: -17px;
-top: 5px;
-}
-button:hover{
-  cursor: pointer;
+  position: relative; 
+  /* max-width: 32rem;  */
+  
 }
 
-@media screen and (max-width: 1200px){
-.input{
-  width: 40vw;
+.input input{
+  /* padding: 1rem;  */
+  padding: 20px 10px 20px 20px;
+border-radius: 9999px; 
+border:1px solid #E5E7EB; 
+width: 350px; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+background-color: #F3F4F6; 
 }
+.input button{
+  cursor: pointer;
+  position: absolute; 
+  top: 13%;
+  right: 11px;
+border: none;
+padding-top: 0.75rem;
+padding-bottom: 0.75rem; 
+padding-left: 1.25rem;
+padding-right: 1.25rem; 
+border-radius: 9999px; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 500; 
+color: #ffffff; 
+background-color: #2563EB; 
+transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms; 
+}
+.input button:hover {
+  background-color: #1D4ED8; 
+  }
+@media screen and (max-width: 1200px){
+/* .input{
+  width: 40vw;
+} */
 }
 @media screen and (max-width: 950px){
   .input::placeholder{
       font-size: 20px;
   
 }
+
 .contact h2{
   font-size: 28px;
   margin-left: 30px;
@@ -72,36 +81,49 @@ button:hover{
 }
 @media screen and (max-width: 800px){
   .contact{
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
- .input{
+  .contact h2{
+    margin-left: 0;
+   }
+ .input input{
   width: 50vw;
  }
- .contact h2{
-  margin-left: 0;
+ 
+ .input button{
+  right: 16px;
  }
 }
 @media screen and (max-width: 660px){
   .contact{
       width: 90vw;
   }
- .input{
+ .input input{
   width: 65vw;
  }
  .contact h2{
   margin-left: 0;
  }
+ .contact{
+  border: none;
+ }
 }
 @media screen and (max-width: 500px){
-.input{
+.input input{
   font-size: 18px;
 }
-.input::placeholder{
+.input input::placeholder{
   font-size: 14px;
 }
 .contact{
   border-radius: 20px;
   margin-left: 0;
+}
+.main_contact{
+  margin: 5%;
+}
+.contact h2{
+  text-align: center;
 }
 }

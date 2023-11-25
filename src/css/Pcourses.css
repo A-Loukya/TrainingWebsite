@@ -168,6 +168,9 @@ font-weight: 400;
 .carousel-btns{
   display: none;
 }
+/* .Pcourses{
+  padding-left: 7%;
+} */
 }
 @media screen and (max-width: 410px){
   .Pcourses-box{
