@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrainingWebsite/static/css/main.eab7de8a.css",
-    "main.js": "/TrainingWebsite/static/js/main.1862fa27.js",
+    "main.css": "/TrainingWebsite/static/css/main.bfdb7f21.css",
+    "main.js": "/TrainingWebsite/static/js/main.55d44150.js",
     "static/media/counselling.svg": "/TrainingWebsite/static/media/counselling.8c0a64c2aeee20a31a10574f35c1b8cc.svg",
     "static/media/career planning.svg": "/TrainingWebsite/static/media/career planning.49f37b2adb2e92ceac279fd6357dd2a4.svg",
     "static/media/test.svg": "/TrainingWebsite/static/media/test.3487584d4b3ed662c6a72b90c9bc4693.svg",
@@ -23,11 +23,11 @@
     "static/media/home-bg.svg": "/TrainingWebsite/static/media/home-bg.9e57ec33fd9f6cc8c214cd736f98cc88.svg",
     "static/media/prevbtn.svg": "/TrainingWebsite/static/media/prevbtn.ffba65da27c9d6fe989ccffe850762be.svg",
     "static/media/Nextbtn.svg": "/TrainingWebsite/static/media/Nextbtn.7127223d5539386f869ac272e14f6a93.svg",
-    "main.eab7de8a.css.map": "/TrainingWebsite/static/css/main.eab7de8a.css.map",
-    "main.1862fa27.js.map": "/TrainingWebsite/static/js/main.1862fa27.js.map"
+    "main.bfdb7f21.css.map": "/TrainingWebsite/static/css/main.bfdb7f21.css.map",
+    "main.55d44150.js.map": "/TrainingWebsite/static/js/main.55d44150.js.map"
   },
   "entrypoints": [
-    "static/css/main.eab7de8a.css",
-    "static/js/main.1862fa27.js"
+    "static/css/main.bfdb7f21.css",
+    "static/js/main.55d44150.js"
   ]
 }
