@@ -4,9 +4,10 @@
   width: 90%;
 height: 200px;
 border-radius: 101px;
-border: 1px solid #B8B8B8;
+/* border: 1px solid #B8B8B8; */
 background: #FFF;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 margin: auto;
@@ -14,8 +15,8 @@ margin-top: 450px;
 margin-bottom: 300px;
 }
 .contact h2{
-font-size: 30px;
-font-weight: 600;
+font-size: 45px;
+font-weight: 800;
 line-height: 134.9%;
 }
 .input{
@@ -30,7 +31,7 @@ line-height: 134.9%;
 border-radius: 9999px; 
 border:1px solid #E5E7EB; 
 width: 350px; 
-font-size: 0.875rem;
+font-size: 18px;
 line-height: 1.25rem; 
 font-weight: 500; 
 background-color: #F3F4F6; 
@@ -70,7 +71,7 @@ transition-duration: 300ms;
 }
 
 .contact h2{
-  font-size: 28px;
+  font-size: 40px;
   margin-left: 30px;
 }
 .contact{
@@ -104,6 +105,7 @@ transition-duration: 300ms;
  }
  .contact h2{
   margin-left: 0;
+  font-size: 36px;
  }
  .contact{
   border: none;
